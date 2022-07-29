@@ -41,3 +41,16 @@ header nav ul li a:hover{
 	color: #39b9ef;
 	text-decoration: underline;
 }
+/***************
+*****vidio******
+****************/
+div.block1{
+	height: 648px;
+}
+div.block1 section.vidio h2 {
+	padding-top: 50px;
+	margin: 0 auto;
+}
+div.block1 section.vidio h2 span.underline{
+	border-bottom: 3px solid #2ebaee;
+}
