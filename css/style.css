@@ -1,6 +1,7 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 -15px;
+	overflow-x: hidden;
 }
 /***************
 *****header*****
@@ -77,6 +78,16 @@ section.vidio div.bol2{
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+	header nav {
+		padding-top: 0px;
+	}
+	header div.opt{
+		padding-left: 20px;
+		display: inline-block;
+	}
+	header nav ul li{
+		display: block;
+	}
 	section.vidio div.bol2{
 		padding-left: 0px;
 	}
